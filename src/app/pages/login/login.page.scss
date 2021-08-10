@@ -1,0 +1,23 @@
+ion-content {
+  --padding-top: 40%;
+  --padding-start: 10%;
+  --padding-end: 10%;
+  --background: url("../../../assets/images/dodge-login.jpg") 0 0/100% 100%
+    no-repeat;
+}
+.input-group {
+    background: rgb(19, 18, 18);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.errors {
+  font-size: small;
+  color: rgb(31, 29, 29);
+  /* background: var (--ion-color-danger); */
+  background: #ff0000;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
